@@ -8,7 +8,7 @@ body {background: transparent url(../images/tile.gif) 0 0 repeat;}
 
 #logo-area #logo {padding:0;}
 
-#logo-area #logo a {display: block; background: transparent url(../images/gmic-main-title.png) center -57px no-repeat; width: 960px; height:0px; margin:0; overflow: hidden; padding-top: 189px;}
+#logo-area #logo span {display: block; background: transparent url(../images/gmic-main-title.png) center -57px no-repeat; width: 960px; height:0px; margin:0; overflow: hidden; padding-top: 189px;}
 
 #top-menu {position:absolute; right: 0px; top: -14px;}
 #top-menu li {background-color: #333; padding:2px 4px 2px 4px;}
