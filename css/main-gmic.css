@@ -1,6 +1,6 @@
 html {background-image: none; background-color: #fff;}
 body {background: transparent url(../images/tile.gif) 0 0 repeat;}
-#wrapper {background: #212121 url(../images/gmic-main-title.png) center -51px no-repeat;}
+#wrapper {background: #212121 url(../images/gmic-main-title.png) center 0px no-repeat;}
 
 #header {margin: 0 auto; width: 960px; position: relative;}
 
@@ -8,14 +8,14 @@ body {background: transparent url(../images/tile.gif) 0 0 repeat;}
 
 #logo-area #logo {padding:0;}
 
-#logo-area #logo span {display: block; background: transparent url(../images/gmic-main-title.png) center -57px no-repeat; width: 960px; height:0px; margin:0; overflow: hidden; padding-top: 189px;}
+#logo-area #logo span {display: block; background: transparent url(../images/gmic-main-title.png) center 0px no-repeat; width: 960px; height:0px; margin:0; overflow: hidden; padding-top: 189px;}
 
 #top-menu {position:absolute; right: 0px; top: -14px;}
 #top-menu li {background-color: #333; padding:2px 4px 2px 4px;}
 
 #main-area {background: transparent url(../images/content-bg.jpg) center 0 no-repeat; }
 #content-area {
-	padding: 4px 0 20px 0; 
+	padding: 4px 0 8px 0; 
 	background: transparent url(../images/divider.gif) center 50px no-repeat; 
 	-webkit-box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.5); 
 	-moz-box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.5); 
