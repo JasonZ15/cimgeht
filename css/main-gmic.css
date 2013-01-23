@@ -46,7 +46,7 @@ table, table td {border: none;}
 	#foo1 div {height: 150px;width: 160px;float: left;}
 		#foo1 li {height: 150px;width: 122px;float: left; display: block; margin-left: 0;}
 	#foo1 span {display: block;text-align:center; color: #999;}
-	#foo1 a {margin:0 auto; float: none; display:block; width: 90px; height: 90px; background: transparent url(images/keynote-speaker-icon_11.png) 0 0 no-repeat;}
+	#foo1 a {margin:0 auto; float: none; display:block; width: 90px; height: 90px; background: transparent url(images/keynote-speaker-icon_11.png) 0px -92px no-repeat; cursor: default;}
 		#speaker2 a {background-image: url(../images/keynote-speaker-icons_03.png);}
 		#speaker3 a {background-image: url(../images/keynote-speaker-icons_07.png);}
 		#speaker4 a {background-image: url(../images/keynote-speaker-icons_21.png);}
