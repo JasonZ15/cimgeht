@@ -13,7 +13,7 @@ body {background: transparent url(../images/tile.gif) 0 0 repeat;}
 #top-menu {position:absolute; right: 0px; top: -14px;}
 #top-menu li {background-color: #333; padding:2px 4px 2px 4px;}
 
-#main-area {background: transparent url(../images/content-bg.jpg) center 0 no-repeat; }
+#main-area {background: transparent url(../images/content-bg.jpg) center 0 repeat-y; }
 #content-area {
 	padding: 4px 0 8px 0; 
 	background: transparent url(../images/divider.gif) center 50px no-repeat; 
@@ -26,6 +26,14 @@ body {background: transparent url(../images/tile.gif) 0 0 repeat;}
 .post-content p.beijing img {margin:0; margin-top: -5px;}
 .post-content p.beijing {margin:0 10px 0 0;}
 .post-content p.silicon {margin: 0 0 0 10px;}
+
+.post-content p.beijing a, .post-content p.silicon a {
+	display: block;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px; 
+}
+.post-content p.beijing a {float: right;height:245px;}
 
 .footer_wrap { background-color: #fff; padding-top:0; border-top: 1px solid #ccc;}
 #main_footer {width:960px; margin: 0 auto;background-image: none; text-align: center;}
