@@ -16,24 +16,24 @@ body {background: transparent url(../images/tile.gif) 0 0 repeat;}
 #main-area {background: transparent url(../images/content-bg.jpg) center 0 repeat-y; }
 #content-area {
 	padding: 4px 0 8px 0; 
-	background: transparent url(../images/divider.gif) center 50px no-repeat; 
 	-webkit-box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.5); 
 	-moz-box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.5); 
 	box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.5); 
 }
 
 .post-content p.beijing {padding-top: 0;}
-.post-content p.beijing img {margin:0; margin-top: -5px;}
-.post-content p.beijing {margin:0 10px 0 0;}
-.post-content p.silicon {margin: 0 0 0 10px;}
+.post-content p.beijing img {margin:0; }
+.post-content p.beijing {margin:0 5px 20px 5px;}
+.post-content p.silicon {margin: 0 5px 20px 5px;}
 
 .post-content p.beijing a, .post-content p.silicon a {
 	display: block;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px; 
+	background: rgba(0, 0, 0, 1);
 }
-.post-content p.beijing a {float: right;height:245px;}
+.post-content p.beijing a {float: right;height:167px;}
 
 .footer_wrap { background-color: #fff; padding-top:0; border-top: 1px solid #ccc;}
 #main_footer {width:960px; margin: 0 auto;background-image: none; text-align: center;}
@@ -66,6 +66,14 @@ table, table td {border: none;}
 		#speaker10 a {background-image: url(../images/keynote-speaker-icons_19.png);}
 		#speaker11 a {background-image: url(../images/keynote-speaker-icons_22.png);}
 		#speaker12 a {background-image: url(../images/keynote-speaker-icons_23.png);}
+		#speaker13 a {background-image: url(../images/keynote-speaker-icons_03_09.png);}
+		#speaker14 a {background-image: url(../images/keynote-speaker-icons_03_07.png);}
+		#speaker15 a {background-image: url(../images/keynote-speaker-icons_03_35.png);}
+		#speaker16 a {background-image: url(../images/keynote-speaker-icons_29_21.png);}
+		#speaker17 a {background-image: url(../images/keynote-speaker-icons_03_05.png);}
+		#speaker18 a {background-image: url(../images/keynote-speaker-icons_03_03.png);}
+		#speaker19 a {background-image: url(../images/keynote-speaker-icons_03_33.png);}
+		#speaker20 a {background-image: url(../images/keynote-speaker-icons_03_31.png);}
 	#foo1 a:hover {background-position: 0px -92px;}
 	#foo1 #speaker1 a {}
 	#speaker_slider.image_carousel p { /*color: #5a77b7;*/ color: #fff; margin: 0 auto 10px auto; padding-bottom: 0px;width: 150px; border-bottom: 0px solid #d7e0f3; font-size: 16px;text-align: center;  font-family: "HelveticaNeue57Condensed", "Helvetica Neue Condensed", "Helvetica", sans-serif;}
