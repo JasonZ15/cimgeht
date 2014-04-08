@@ -26,6 +26,8 @@ body {background: transparent url(../images/tile.gif) 0 0 repeat;}
 .post-content p.beijing {margin:0 5px 20px 5px;}
 .post-content p.silicon {margin: 0 5px 20px 5px;}
 
+.vertical .post-content p.silicon {margin: 0;}
+
 .post-content p.beijing a, .post-content p.silicon a {
 	display: block;
 	-webkit-border-radius: 8px;
@@ -33,7 +35,7 @@ body {background: transparent url(../images/tile.gif) 0 0 repeat;}
 	border-radius: 8px; 
 	background: rgba(0, 0, 0, 1);
 }
-.post-content p.beijing a {float: right;height:167px;}
+.post-content p.beijing a {float: right;height:126px;}
 
 .footer_wrap { background-color: #fff; padding-top:0; border-top: 1px solid #ccc;}
 #main_footer {width:960px; margin: 0 auto;background-image: none; text-align: center;}
@@ -77,3 +79,17 @@ table, table td {border: none;}
 	#foo1 a:hover {background-position: 0px -92px;}
 	#foo1 #speaker1 a {}
 	#speaker_slider.image_carousel p { /*color: #5a77b7;*/ color: #fff; margin: 0 auto 10px auto; padding-bottom: 0px;width: 150px; border-bottom: 0px solid #d7e0f3; font-size: 16px;text-align: center;  font-family: "HelveticaNeue57Condensed", "Helvetica Neue Condensed", "Helvetica", sans-serif;}
+.vertical {display:none;}
+
+@media only screen and ( max-width: 960px ) {
+#logo-area #logo span {background-image:none;width:100%}
+#mobile_nav {display:none;}
+header#header {width:100%}
+.post-content p.beijing a {height:91px;}
+#main_footer {width:100%}
+}
+@media only screen and ( max-width: 767px ) {
+	.vertical p.beijing a {height:auto;float:none;}
+.horizontal {display:none;}
+.vertical {display:block;}
+}

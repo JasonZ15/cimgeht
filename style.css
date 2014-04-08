@@ -477,6 +477,7 @@ body.tax-project_category .wp-pagenavi { border-top: 1px solid #F0F0E5; padding:
 	-o-background-size: cover;
 	background-size: cover;
 }
+	
 	#et-search, p#et-search-title, p#et-search-title span { background: none !important; }
 	#et-search { width: auto !important; height: auto !important; }
 		#et-search-inner { padding: 0 !important; }
@@ -538,7 +539,7 @@ body.tax-project_category .wp-pagenavi { border-top: 1px solid #F0F0E5; padding:
 	
 	body.single-project .flexslider { min-height: 364px; }
 	
-	.post-content p.silicon img { width: 380px;}
+	.post-content p.silicon img { }
 	.post-content p.beijing img { margin-top: -16px;}
 }
 
@@ -608,7 +609,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffefe', end
 }
 
 @media only screen and ( max-width: 479px ) {
-	#container, #mobile_menu { width: 280px; }
+	#container, #mobile_menu { width: 280px;}
 	#mobile_nav > span { left: 58px; }
 	#portfolio .more, #blog .more { display: none; }
 	.portfolio-item { width: 140px; }
